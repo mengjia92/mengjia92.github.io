@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Slideshow</title>
+    <link rel="stylesheet" href="slideshow.css">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <script src="slideshow.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="images">
+            <img class="slides fade" src="images/dog1.jpg">
+            <img class="slides fade" src="images/dog2.jpg">
+            <img class="slides fade" src="images/cat.jpg">
+            <img class="slides fade" src="images/duck.jpg">
+        </div>
+
+        <a class="prev" onclick="prevImg()">&#10094;</a>
+        <a class="next" onclick="nextImg()">&#10095;</a>
+
+    </div>
+    <br>
+        <div class="img_btn">
+            <button class="pause_play" onclick="sliderControl()">PAUSE</button>
+            <button name ="img_control" onclick="driveImg(0)">Sleepy</button>
+            <button name ="img_control" onclick="driveImg(1)">Cutie</button>
+            <button name ="img_control" onclick="driveImg(2)">Puffy</button>
+            <button name ="img_control" onclick="driveImg(3)">Newborn</button>
+        </div>
+</body>
+</html>
