@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-size: 18px;
+}
+
+.container {
+    margin: 100px auto;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #85929E;
+    box-shadow: 3px 2px;
+}
+
+label {
+    padding: 30px;
+    display: grid;
+    color: white;
+    font-size: 30px;
+    margin-bottom: -50px;
+    font-family: 'Bree Serif', serif;
+}
+
+p {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    float: left;
+    text-align: right;
+    background-color: #F1F6FA;
+    border-radius: 1px;
+    box-shadow: 2px 1px;
+    margin-left: 45px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    padding-top: 5px;
+    overflow: hidden;
+}
+
+header #result {
+    font-size: 1.8em;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 40px 40px 40px;
+    overflow: auto;
+}
+
+.keys button {
+    margin: 0 3px 3px 3px;
+    font-size: 1em;
+    float: left;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 2px 1px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.keys button:active {
+    transform: translateY(3px);
+}
+
+.number {
+    background-color: #FEF9E7;
+}
+
+.number:active {
+    background-color: #99996A;
+}
+
+.operator {
+    background-color: #DADADA;
+}
+
+.operator:active{
+    background-color: #FFFFFF;
+}
+
+
