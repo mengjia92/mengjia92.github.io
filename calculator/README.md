@@ -1,1 +1,1 @@
-A simple calculator. Go to https://mengjia92.github.io/calculator/calculator.html and have a try!
+A simple calculator. Go to https://mengjia92.github.io/calculator and have a try!
